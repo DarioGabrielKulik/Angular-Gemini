@@ -7,7 +7,7 @@ import { ServicesService } from '../services/services.service';
   styleUrl: './components.component.css'
 })
 export class ComponentsComponent {
-  apiKey = 'AIzaSyD9xGTfHkSgmEdCATNrPevg35fzkUPLFAY'; // Remplaza tu apikey
+  apiKey = ''; // Remplaza tu apikey
   ingresarTexto: string | undefined;
   texto: any | undefined;
   constructor(private apiService: ServicesService) {}
